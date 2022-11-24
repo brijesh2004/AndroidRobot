@@ -1,0 +1,76 @@
+.robot{
+   position: absolute;
+   left: 40%;
+   top: 10%;
+}
+.left_eye{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    
+    left: 18%;
+    top: 15%;
+}
+.right_eye{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    color: red;
+    left: 71%;
+    top: 15%;
+}
+.robot_head{
+    background-color: green;
+    width: 230px;
+    height: 100px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+
+}
+.robot_body{
+    background-color: green;
+    width: 230px;
+    height: 270px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.left_hand{
+    position: absolute;
+    left: -30%;
+    background-color: green;
+    width: 50px;
+    height: 230px;
+    top: 36%;
+    border-radius: 30px;
+}
+.right_hand{
+    position: absolute;
+    left: 107%;
+    background-color: green;
+    width: 50px;
+    height: 230px;
+    border-radius: 30px;
+    top: 36%;
+}
+.left_foot{
+    position: absolute;
+    left: 60%;
+    background-color: green;
+    width: 50px;
+    height: 150px;
+    border-radius: 40px;
+    top: 90%;
+}
+.right_foot{
+    position: absolute;
+    left: 20%;
+    background-color: green;
+    width: 50px;
+    top: 90%;
+    border-radius: 40px;
+    height: 150px;
+}
